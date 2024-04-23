@@ -36,6 +36,7 @@ docker-compose up --build next-app
 docker-compose up --build go_app
 docker-compose up --build nginx
 docker-compose down nginx
+docker-compose down go_app
 docker-compose down admin-app
 docker-compose up --build admin-app
 docker images
