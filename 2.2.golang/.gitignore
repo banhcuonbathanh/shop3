@@ -1,0 +1,28 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Output of the go coverage tool
+*.out
+
+# Ignore the vendor directory
+vendor/
+
+# Ignore go.mod's cache directory
+.*/@v
+
+# Ignore the log output
+log/
+
+# macOS specific files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Temporary files
+*~
+*.swp
+*.bak
